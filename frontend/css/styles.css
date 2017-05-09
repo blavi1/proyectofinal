@@ -1,0 +1,154 @@
+body { 
+	padding-top: 70px; 
+	color: #292b2c; 
+	background-color: #f5f8fa;
+}
+
+/**  NAVBAR **/
+.navbar-default {
+	background-color: #3097D1;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+	color: rgba(255, 255, 255, 0.5);
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #3289b9;
+}
+
+/** DIVS **/
+.sidebar, .content { 
+	background-color: #fff; 
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.ahy {
+  padding-top: 1.5rem !important; 
+}
+.by {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media (min-width: 576px) {
+    .by {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 768px) {
+    .by {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 992px) {
+    .by {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 1200px) {
+    .by {
+      padding-right: 15px;
+      padding-left: 15px; } }
+  @media (min-width: 992px) {
+    .by {
+      width: 990px;
+      max-width: 100%; } }
+  @media (min-width: 1200px) {
+    .by {
+      width: 1230px;
+      max-width: 100%; } 
+}
+.dq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+  @media (min-width: 576px) {
+    .dq {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 768px) {
+    .dq {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 992px) {
+    .dq {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 1200px) {
+    .dq {
+      margin-right: -15px;
+      margin-left: -15px; } 
+}
+.agk {
+  margin-bottom: 1.5rem !important; 
+}
+.rp {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem; 
+}
+.rq {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1.25rem; 
+}
+.agd {
+    margin-bottom: 1rem !important;
+}
+.dc {
+  padding-left: 0;
+  list-style: none; 
+}
+.ayn li {
+  margin-bottom: 5px; }
+.axr {
+    color: #636c72 !important;
+}
+h6 {
+  font-size: 16px; 
+}
+.agc {
+    margin-right: 1rem !important;
+}
+.bbu:before {
+    content: "\EA3D";
+}
+.h:before {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-family: "toolkit-entypo";
+    speak: none;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
