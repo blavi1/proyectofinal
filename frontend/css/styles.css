@@ -13,7 +13,7 @@ h6 {
 }
 /**  NAVBAR **/
 .navbar-default {
-	background-color: #3097D1;
+	background-color: #d42222;
 }
 .navbar-default .navbar-brand {
     color: #fff;
@@ -23,18 +23,23 @@ h6 {
     background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
-	color: rgba(255, 255, 255, 0.5);
+	color: #fff;
+  font-weight: 600;
 }
 .navbar-default .navbar-nav>li>a:hover {
-	color: rgba(255, 255, 255, 0.8);
+	background-color: #bf1919;
+  color: #fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #3289b9;
+  background-color: #bf1919;
 }
-
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0;
+}
 /** DIVS **/
 .box {
   margin-bottom: 1.5rem;
@@ -138,32 +143,88 @@ h6 {
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-.dq {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
-  @media (min-width: 576px) {
-    .dq {
-      margin-right: -15px;
-      margin-left: -15px; } }
-  @media (min-width: 768px) {
-    .dq {
-      margin-right: -15px;
-      margin-left: -15px; } }
-  @media (min-width: 992px) {
-    .dq {
-      margin-right: -15px;
-      margin-left: -15px; } }
-  @media (min-width: 1200px) {
-    .dq {
-      margin-right: -15px;
-      margin-left: -15px; } 
+/* DIV USUARIO */
+.afx {
+  margin-left: 0.5rem !important;
 }
-
+.bpq img {
+  height: 35px;
+  width: 35px;
+}
+.bpq {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.cg {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.wg {
+  border-radius: 50%;
+}
+/** FORMULARIO BUSQUEDA **/
+#globalSearch input {
+  padding: 6px 7px;
+  font-size: 0.9em;
+  border: none;
+  width: 200px;
+  height: 30px;
+}
+i#lop{
+  display: inline;
+  top: 1px;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+button#topsearch {
+  font-size: 18px;
+  padding: 0.1em 1em 0.2em;
+  height: 28px;
+}
+button[type=submit]:hover{
+  background: #d03131;
+  color: #fff;
+}
+button[type=submit], .dropdownContainer.blue {
+  background: #d24242;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  color: white;
+  padding: 0.5em 1.5em;
+  font-size: 1em;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 300;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
 
 
 .list {
