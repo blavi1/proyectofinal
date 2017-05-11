@@ -4,6 +4,9 @@ body {
 	background-color: #f5f8fa;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.container-fluid{
+  padding: 0 75px;
+}
 h6 {
   font-family: inherit;
   font-weight: 600;
@@ -12,15 +15,18 @@ h6 {
   color: inherit;
 }
 /**  NAVBAR **/
+.right {
+  float: right;
+}
 .navbar-default {
 	background-color: #d42222;
 }
 .navbar-default .navbar-brand {
-    color: #fff;
+  color: #fff;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #fff;
-    background-color: transparent;
+  color: #fff;
+   background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
@@ -39,6 +45,105 @@ h6 {
 .navbar-fixed-top {
   top: 0;
   border-width: 0;
+}
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: block;
+    max-width: 276px;
+    padding: 1px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-break: auto;
+    line-height: 1.6;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    white-space: normal;
+    word-break: normal;
+    word-spacing: normal;
+    font-size: 0.875rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d4dbe0;
+    border-radius: 0.3rem;
+}
+/** POPOVER **/
+#userinfo-desp {
+  min-width: 150px;
+}
+#userinfo-desp .userinfo-content {
+  overflow: hidden;
+  padding: 0;
+}
+#userinfo-desp .userinfo-content a {
+  padding: 2px 15px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+#userinfo-desp .userinfo-content a:hover {
+    background: #f7f7f7;
+}
+.box-pop {
+  position: relative;
+  margin-bottom: 1em;
+  background-color: white;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.desplegable {
+  display: none;
+  min-width: 400px;
+  right: 75px;
+  top: 50px;
+  z-index: 1036;
+  line-height: 20px;
+  padding: 0px;
+}
+.desplegable.desplegado {
+  display: block;
+  position: absolute;
+  background: white;
+  box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.6);
+}
+.desplegable.desplegado:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  width: 10px;
+  height: 10px;
+  background: #F7F7F7;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.desplegable .title {
+  padding: 5px;
+  padding: 5px 10px;
+  background: #F7F7F7;
+  border-bottom: 1px solid #bbb;
+}
+.closeX {
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+  padding: 0px 4px;
+  color: #aaa;
+  cursor: pointer;
 }
 /** DIVS **/
 .box {
