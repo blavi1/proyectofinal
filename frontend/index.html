@@ -7,8 +7,9 @@
     <title>Series, películas, libros y más en streaming - bartimeo.com</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"> -->
     <link href="css/styles.css" rel="stylesheet">
-    <link href="css/toodlkit.css" rel="stylesheet">
+    <link href="css/jquery-impromptu.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -17,8 +18,17 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/includes.js"></script>
     <script src="js/configs.js"></script>
+    <script src="js/jquery-impromptu.min.js"></script>
   </head>
   <body>
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        /*$.prompt("Proceeding may be good for your site..", {
+          title: "Are you Ready?",
+          buttons: { "Yes, I'm Ready": true, "No, Lets Wait": false }
+        });*/
+      });
+    </script>
     <div include-html="header.html"></div>         
     <div class="container-fluid by p_top">
       <div class="row">
@@ -177,8 +187,8 @@
             <div class="rq">
               <h6 class="h6-title">Enlaces</h6>
               <div class="div_links">
-                <button class="cg pq pz">Añadir Enlaces</button>
-                <button class="cg pq pz">Enviar Invitaciones</button>                
+                <button id="addLinks" class="cg pq pz">Añadir Enlaces</button>
+                <button id="sendInvi" class="cg pq pz">Enviar Invitaciones</button>                
               </div>
             </div>
           </div>
@@ -209,6 +219,14 @@
                     </div>
                   </li>
               </ul>
+            </div>
+          </div>
+          <div class="rp agk aye"><!-- Div contenido -->
+            <div class="rq">
+              <h6 class="h6-title">Contenido</h6>
+              <div class="div_contenido">
+                                
+              </div>
             </div>
           </div>
         </div>

@@ -4821,6 +4821,7 @@
         History.init();
     }
 })(window);
+/*FUNCIÓN PARA HISTORY*/
 (function($) {
     "use strict";
     var
@@ -5986,6 +5987,7 @@
         }
     }
 })(jQuery);
+/*FUNCIÓN PARA EL PROMPT*/
 (function($) {
     $.prompt = function(message, options) {
         $.prompt.options = $.extend({}, $.prompt.defaults, options);
