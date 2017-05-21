@@ -18,7 +18,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/includes.js"></script>
     <script src="js/configs.js"></script>
-    <script src="js/jquery-impromptu.min.js"></script>
+    <script src="js/jquery-impromptu.js"></script>
   </head>
   <body>
     <script type="text/javascript">
@@ -224,8 +224,11 @@
           <div class="rp agk aye"><!-- Div contenido -->
             <div class="rq">
               <h6 class="h6-title">Contenido</h6>
+              <form accept-charset="utf-8" method="POST">
+              <input type="text" name="busqueda" id="busqueda" value="" placeholder="Escribe el nombre de la película que buscas" maxlength="30" autocomplete="off" onKeyUp="buscar()" />
+              </form>
               <div class="div_contenido">
-                                
+                                 
               </div>
             </div>
           </div>
