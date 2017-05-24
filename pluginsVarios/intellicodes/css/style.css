@@ -1,0 +1,594 @@
+.intellicasoexito{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.intellicasoexito_carousel .bx-wrapper{border: 0px !important;}
+.intellicasoexito .imagenempresa{
+    background-size: cover;
+    min-height: 430px;
+    background-position: center;
+}
+.intellicasoexito .contenidoempresa{
+    background: #FFF;
+    padding: 45px;
+    min-height: 430px
+}
+.intellicasoexito .contenidoempresa h2{
+    font-family: 'Raleway';
+    color:  #504f53;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.intellicasoexito .contenidoempresa h4{
+    color: #a50d34;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+.intellicasoexito .contenidoempresa .logo,
+.intellicasoexito .contenidoempresa .info{
+    float: left;
+}
+.intellicasoexito .contenidoempresa .info p{
+    margin-bottom: 0px;
+    font-family: 'Open Sans';
+    color:  #68686c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.intellicasoexito .contenidoempresa .info p strong{
+    color: #1b1c20;
+}
+.intellicasoexito .contenidoempresa .logo{
+    width: 130px;
+    text-align: center;
+}
+.intellicasoexito .contenidoempresa .logo img{
+    max-width: 100%;
+}
+.intellicasoexito .contenidoempresa .descripcion{
+    margin-top: 32px;
+    font-family: 'Open Sans';
+    color:  #68686c;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.intellicasoexito .contenidoempresa a{
+    font-family: 'Raleway';
+    color:  #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    background: #a50d34;
+    display: block;
+    line-height: 30px;
+    letter-spacing: 1px;
+    float: right;
+    border-radius: 3px;
+}
+.intellicasoexito .contenidoempresa a:hover{
+    background: #f15a24;
+}
+.itcustomposts, .itacordeon{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.itcustomposts .vc_col-sm-3{
+    padding: 5px;
+}
+.itcustomposts .vc_col-sm-3 .contenido{
+    padding: 15px;
+}
+.itcustomposts .vc_col-sm-3 .contenido img{
+    height: 80px;
+    width: auto;
+    margin-bottom: 10px;
+}
+.itcustomposts .vc_col-sm-3 p{
+    font-family: 'Open Sans';
+    color:  #4c4c4c;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.itcustomposts .vc_col-sm-3 a,
+.itacordeon .vc_col-sm-12 a.boton-enlace{
+    color: #3fa9f5;
+    border: 1px solid #3fa9f5;
+    padding: 6px 20px 8px 20px;
+    width: 100%;
+    display: inline-block;
+    line-height: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+.itacordeon .vc_col-sm-12 a.boton-enlace{
+    max-width: 155px;
+}
+.itcustomposts .vc_col-sm-3 a:hover,
+.itacordeon .vc_col-sm-12 a.boton-enlace:hover{
+    background: #3fa9f5;
+    color: #FFF;
+}
+.itcustomposts #custom_category_filter{
+    text-align: center;
+    max-width: 670px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    text-align: center;
+    width: 90%;
+}
+.itacordeon #custom_category_filter,
+.itcasosexito #custom_category_filter{
+    max-width: 670px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 90%;
+}
+.itcasosexito{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.itcasosexito #custom_category_filter{
+    margin-bottom: 90px;
+}
+.ver-mas-button-exito{
+    margin-bottom: 50px;
+}
+.itacordeon #custom_category_filter::after,
+.itcustomposts #custom_category_filter::after,
+.itcasosexito #custom_category_filter::after{
+    content: "\f107";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    float: right;
+    margin-top: -35px;
+    z-index: 9;
+    position: relative;
+    pointer-events: none;
+    color: #FFF;
+    font-size: 22px;
+    margin-right: 15px;
+}
+.itacordeon .icono,
+.itacordeon .titulo{
+    float: left;
+}
+.itcustomposts #custom_category_filter select,
+.itacordeon #custom_category_filter select,
+.itcasosexito #custom_category_filter select{
+    background: transparent;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    color:  #97979b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    border: 2px solid #d28699;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 45px;
+    background-image: linear-gradient(45deg, transparent 50%, #a50d34 50%), linear-gradient(135deg, #a50d34 50%, transparent 50%), linear-gradient(to right, #a50d34, #a50d34);
+    background-position: calc(100% - 19px) calc(1em + 5px), calc(100% - 13px) calc(1em + 5px), 100% 0;
+    background-size: 5px 5px, 6px 6px, 3em 3.5em;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.itcasosexito #custom_category_filter select{background-color: #FFF;}
+.itacordeon .vc_col-sm-12{
+    background: #f2f2f2;
+    padding: 17px 48px;
+    margin-bottom: 22px;
+}
+.itacordeon h3{
+    font-family: 'Raleway';
+    color:  #a50d34;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.itacordeon h5{
+    font-family: 'Open Sans';
+    color:  #4c4c4c;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-transform: initial;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+}
+.itacordeon .titulo_acordeon{cursor: pointer;}
+.itacordeon .titulo_acordeon::after{
+    content: "\f107";
+    font-family: 'FontAwesome';
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #b3b3b3;
+    right: 20px;
+    transition: transform 500ms ease;
+}
+.itacordeon .titulo_acordeon.activo::after{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: transform 500ms ease;
+}
+.itacordeon .icono{
+    width: 115px;
+}
+.itacordeon .icono img{
+    max-width: 100%;
+    width: auto;
+    height: 50px;
+}
+.itacordeon .titulo{
+    margin-top: 3px;
+}
+.itacordeon .descripcion_acordeon{
+    margin-top: 60px;
+    margin-left: 115px;
+    font-family: 'Open Sans';
+    color: #4c4c4c;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.itacordeon .descripcion_acordeon .boton-enlace{margin-right: 10px;}
+.itacordeon .descripcion_acordeon p{
+    line-height: 14px;
+}
+.itacordeon strong{
+    font-family: 'Open Sans';
+    color:  #000000;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+.itcustomposts .vc_col-sm-3 h4{
+    font-family: 'Raleway';
+    color:  #a50d34;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+    letter-spacing: 0px;
+    min-height: 54px;
+}
+.itcustomposts .vc_col-sm-3 i{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.separador_inscribete{
+    margin-top: 110px;
+    margin-bottom: 110px;
+    min-height: 465px;
+    background: url(../img/inscribete.jpg);
+    background-position: center;
+}
+.cuadro_inscribete{
+    background: #a50d34;
+    padding: 50px;
+    width: 570px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 15px;
+}
+.cuadro_inscribete h2{
+    font-family: 'Raleway';
+    font-weight: 600;
+    line-height: 34px;
+}
+.cuadro_inscribete h4{
+    font-family: 'Open Sans';
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.cuadro_inscribete a{
+    border-bottom: 0px;
+    background: #f15a24;
+}
+.cuadro_inscribete a:hover{
+    border-bottom: 0px;
+    background: #FFF;
+    color: #a50d34;
+}
+.contenedor_cuadro_inscribete{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#vermas{
+    font-family: 'Raleway';
+    color:  #4d4d4d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #cccccc;
+    padding: 10px 0px;
+    max-width: 350px;
+    border-radius: 4px;
+    margin-top: 100px;
+    width: 100%;
+    background: #FFF;
+}
+.ver-mas-button-acordeon #vermas{
+    margin-top: 58px;
+    margin-bottom: 150px;
+}
+#vermas:hover{
+    background: #4d4d4d;
+    border-color: #4d4d4d;
+    color: #FFF;
+}
+#vermas.desactivado{
+    background: #cccccc;
+    border-color: #cccccc;
+    color: #eaeaea;
+}
+#vermas.desactivado:hover{
+    background: #cccccc;
+    border-color: #cccccc;
+    color: #eaeaea;
+}
+.itcustomposts .vc_col-sm-3 a i,
+.acordeon .vc_col-sm-12 a i{
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.itcustomposts .vc_col-sm-3 a,
+.acordeon .vc_col-sm-12 a{
+    text-decoration: none;
+}
+.ver-mas-button{
+    margin-bottom: 30px;
+}
+.buscador_acordeon{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.buscador_acordeon input[type="text"]{
+    background: transparent;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    color: #97979b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    border: 2px solid #d28699;
+    border-radius: 3px;
+    width: 573px
+}
+.buscador_acordeon input[type="submit"]{
+    background: #a50d34;
+    color: #FFF;
+    border: 2px solid #a50d34;
+    height: 48px;
+    margin-left: -2px;
+    border-radius: 3px;
+    width: 100px;
+}
+.itcasosexito .vc_col-sm-4{
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 50px;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.itcasosexito .vc_col-sm-4 .contenido_caso_exito{
+    margin: 0px 20px;
+}
+.itcasosexito .vc_col-sm-4 .contenido_caso_exito p{
+    text-align: center !important;
+}
+.itcasosexito .vc_col-sm-4 .contenido_caso_exito img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+}
+.itcasosexito .vc_col-sm-4 .contenido{
+    background: #FFF;
+    padding: 20px;
+    min-height: 310px;
+}
+.itcasosexito .vc_col-sm-4 input[type="submit"]{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #a50d34;
+    border: 1px solid #bfbfbf;
+    width: 132px;
+    height: 32px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    background: transparent;
+}
+.itcasosexito .vc_col-sm-4 input[type="submit"]:hover{
+    background: #edeeef;
+}
+.itcasosexito .vc_col-sm-4 a:hover{
+    background: #FFF;
+}
+.itcasosexito h4{
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #504f53;
+    font-size: 21px;
+}
+.ver_caso_exito{
+    background: #FFF;
+    margin-bottom: 40px;
+    margin-top: 125px;
+}
+.ver_caso_exito .contenido_caso_exito,
+.ver_caso_exito .cabecera_caso_exito{
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.ver_caso_exito .contenido_caso_exito{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.ver_caso_exito .cabecera_caso_exito img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.ver_caso_exito .cabecera_caso_exito .imagen_exito, 
+.ver_caso_exito .cabecera_caso_exito .titulo_exito{
+    float: left;
+}
+.ver_caso_exito .cabecera_caso_exito .titulo_exito{
+    margin-left: 70px;
+    margin-top: 90px;
+}
+.ver_caso_exito .cabecera_caso_exito .titulo_exito h2{
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #504f53;
+    line-height: 30px;
+}
+.ver_caso_exito .cabecera_caso_exito .titulo_exito h4{
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #a50d34;
+}
+.ver_caso_exito .cabecera_caso_exito .imagen_exito{
+    margin-top: -44px;
+}
+@media screen and (max-width: 1199px){
+    .itcustomposts .vc_col-sm-3{
+        width: 50%;
+        text-align: center;
+    }
+    .itcustomposts .vc_col-sm-3 a{
+        max-width: 230px;
+    }
+    .itcustomposts .vc_col-sm-3 h4,
+    .itcustomposts .vc_col-sm-3 p{text-align: center;}
+    .itacordeon .row{
+        margin: 0px 15px;
+    }
+    .ver_caso_exito .cabecera_caso_exito .titulo_exito {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 991px){
+    .itcasosexito, 
+    .ver_caso_exito .contenido_caso_exito, 
+    .ver_caso_exito .cabecera_caso_exito{
+        max-width: 750px;
+    }
+    .itcasosexito .vc_col-sm-3{
+        padding: 0px 10px;
+    }
+    .ver_caso_exito .cabecera_caso_exito .imagen_exito,
+    .ver_caso_exito .cabecera_caso_exito .titulo_exito{
+        float: none;
+    }
+    .ver_caso_exito .cabecera_caso_exito .imagen_exito{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .itcasosexito .vc_col-sm-4{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .noticias-home.post-block .post-content h2{
+        min-height: 78px;
+    }
+    .noticias-home .post-content p{
+        min-height:  115px;
+    }
+}
+@media screen and (max-width: 767px){
+    .itcustomposts .vc_col-sm-3{
+        width: 100%;
+    }
+    .itcustomposts #custom_category_filter select, .itacordeon #custom_category_filter select{width: 100%;}
+    #vermas{max-width: 265px;}
+    .buscador_acordeon input[type="text"]{
+        width: 70%;
+    }
+    .buscador_acordeon input[type="submit"]{
+        width: 30%;
+    }
+    .intellicasoexito .imagenempresa{width: 100%;}
+    .itcasosexito .vc_col-sm-4{
+        width: 100%;
+    }
+    .itcasosexito .vc_col-sm-4 .contenido{
+        min-height: 0px;
+    }
+}
+@media screen and (max-width: 600px){
+    .cuadro_inscribete{width: 95%;margin-top: 60px;}
+    .cuadro_inscribete h2{
+        font-size: 25px !important;
+        line-height: 25px;
+    }
+    .titulo_acordeon .icono{
+        width: 100%;
+        text-align: center;
+    }
+    .titulo_acordeon .titulo{
+        width: 100%;
+    }
+    .itacordeon h3{text-align: center;}
+    .itacordeon h5{text-align: center;}
+    .itacordeon .descripcion_acordeon{margin-left: 0px;}
+}

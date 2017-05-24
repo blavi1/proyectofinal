@@ -1,0 +1,674 @@
+[
+    {
+        "id": 58984,
+        "name": "AGRON"
+    },
+    {
+        "id": 58985,
+        "name": "ALBOLOTE"
+    },
+    {
+        "id": 58986,
+        "name": "ALBONDON"
+    },
+    {
+        "id": 58987,
+        "name": "ALBUÑAN"
+    },
+    {
+        "id": 58988,
+        "name": "ALBUÑOL"
+    },
+    {
+        "id": 58989,
+        "name": "ALBUÑUELAS"
+    },
+    {
+        "id": 58992,
+        "name": "ALAMEDILLA"
+    },
+    {
+        "id": 58993,
+        "name": "ALDEIRE"
+    },
+    {
+        "id": 58994,
+        "name": "ALFACAR"
+    },
+    {
+        "id": 58996,
+        "name": "ALGARINEJO"
+    },
+    {
+        "id": 58997,
+        "name": "ALHAMA DE GRANADA"
+    },
+    {
+        "id": 58998,
+        "name": "ALHENDIN"
+    },
+    {
+        "id": 58999,
+        "name": "ALICUN DE ORTEGA"
+    },
+    {
+        "id": 59001,
+        "name": "ALMEGIJAR"
+    },
+    {
+        "id": 59004,
+        "name": "ALMUÑECAR"
+    },
+    {
+        "id": 59007,
+        "name": "ALQUIFE"
+    },
+    {
+        "id": 59008,
+        "name": "ALPUJARRA DE LA SIERRA"
+    },
+    {
+        "id": 59009,
+        "name": "ARENAS DEL REY"
+    },
+    {
+        "id": 59012,
+        "name": "ARMILLA"
+    },
+    {
+        "id": 59016,
+        "name": "ATARFE"
+    },
+    {
+        "id": 59025,
+        "name": "BAZA"
+    },
+    {
+        "id": 59026,
+        "name": "BEAS DE GRANADA"
+    },
+    {
+        "id": 59027,
+        "name": "BEAS DE GUADIX"
+    },
+    {
+        "id": 59028,
+        "name": "BENALUA"
+    },
+    {
+        "id": 59029,
+        "name": "BENALUA DE LAS VILLAS"
+    },
+    {
+        "id": 59030,
+        "name": "BENAMAUREL"
+    },
+    {
+        "id": 59031,
+        "name": "BERCHULES"
+    },
+    {
+        "id": 59035,
+        "name": "BUBION"
+    },
+    {
+        "id": 59038,
+        "name": "BUSQUISTAR"
+    },
+    {
+        "id": 59041,
+        "name": "CACIN"
+    },
+    {
+        "id": 59042,
+        "name": "CADIAR"
+    },
+    {
+        "id": 59043,
+        "name": "CAJAR"
+    },
+    {
+        "id": 59044,
+        "name": "CALAHORRA (LA)"
+    },
+    {
+        "id": 59045,
+        "name": "CALICASAS"
+    },
+    {
+        "id": 59047,
+        "name": "CAMPOTEJAR"
+    },
+    {
+        "id": 59048,
+        "name": "CANILES"
+    },
+    {
+        "id": 59050,
+        "name": "CAÑAR"
+    },
+    {
+        "id": 59052,
+        "name": "CAPILEIRA"
+    },
+    {
+        "id": 59053,
+        "name": "CARATAUNAS"
+    },
+    {
+        "id": 59058,
+        "name": "CASTARAS"
+    },
+    {
+        "id": 59060,
+        "name": "CASTILLEJAR"
+    },
+    {
+        "id": 59063,
+        "name": "CASTRIL"
+    },
+    {
+        "id": 59067,
+        "name": "CENES DE LA VEGA"
+    },
+    {
+        "id": 59068,
+        "name": "CIJUELA"
+    },
+    {
+        "id": 59069,
+        "name": "COGOLLOS DE GUADIX"
+    },
+    {
+        "id": 59070,
+        "name": "COGOLLOS VEGA"
+    },
+    {
+        "id": 59072,
+        "name": "COLOMERA"
+    },
+    {
+        "id": 59075,
+        "name": "CORTES DE BAZA"
+    },
+    {
+        "id": 59081,
+        "name": "CORTES Y GRAENA"
+    },
+    {
+        "id": 59086,
+        "name": "CUEVAS DEL CAMPO"
+    },
+    {
+        "id": 59087,
+        "name": "CULLAR"
+    },
+    {
+        "id": 59088,
+        "name": "CULLAR VEGA"
+    },
+    {
+        "id": 59092,
+        "name": "CHAUCHINA"
+    },
+    {
+        "id": 59094,
+        "name": "CHIMENEAS"
+    },
+    {
+        "id": 59096,
+        "name": "CHURRIANA DE LA VEGA"
+    },
+    {
+        "id": 59097,
+        "name": "DARRO"
+    },
+    {
+        "id": 59098,
+        "name": "DEHESAS DE GUADIX"
+    },
+    {
+        "id": 59100,
+        "name": "DEIFONTES"
+    },
+    {
+        "id": 59102,
+        "name": "DIEZMA"
+    },
+    {
+        "id": 59103,
+        "name": "DILAR"
+    },
+    {
+        "id": 59104,
+        "name": "DOLAR"
+    },
+    {
+        "id": 59106,
+        "name": "DUDAR"
+    },
+    {
+        "id": 59107,
+        "name": "DURCAL"
+    },
+    {
+        "id": 59108,
+        "name": "ESCUZAR"
+    },
+    {
+        "id": 59114,
+        "name": "FERREIRA"
+    },
+    {
+        "id": 59115,
+        "name": "FONELAS"
+    },
+    {
+        "id": 59119,
+        "name": "FREILA"
+    },
+    {
+        "id": 59123,
+        "name": "FUENTE VAQUEROS"
+    },
+    {
+        "id": 59127,
+        "name": "GABIAS (LAS)"
+    },
+    {
+        "id": 59130,
+        "name": "GALERA"
+    },
+    {
+        "id": 59134,
+        "name": "GOBERNADOR"
+    },
+    {
+        "id": 59135,
+        "name": "GOJAR"
+    },
+    {
+        "id": 59136,
+        "name": "GOR"
+    },
+    {
+        "id": 59137,
+        "name": "GORAFE"
+    },
+    {
+        "id": 59140,
+        "name": "GRANADA"
+    },
+    {
+        "id": 59141,
+        "name": "GÜEJAR SIERRA"
+    },
+    {
+        "id": 59142,
+        "name": "GÜEVEJAR"
+    },
+    {
+        "id": 59143,
+        "name": "GUADAHORTUNA"
+    },
+    {
+        "id": 59144,
+        "name": "GUADIX"
+    },
+    {
+        "id": 59145,
+        "name": "GUAJARES (LOS)"
+    },
+    {
+        "id": 59148,
+        "name": "GUALCHOS"
+    },
+    {
+        "id": 59152,
+        "name": "HUELAGO"
+    },
+    {
+        "id": 59153,
+        "name": "HUENEJA"
+    },
+    {
+        "id": 59154,
+        "name": "HUESCAR"
+    },
+    {
+        "id": 59155,
+        "name": "HUETOR SANTILLAN"
+    },
+    {
+        "id": 59156,
+        "name": "HUETOR TAJAR"
+    },
+    {
+        "id": 59157,
+        "name": "HUETOR VEGA"
+    },
+    {
+        "id": 59158,
+        "name": "ILLORA"
+    },
+    {
+        "id": 59159,
+        "name": "ITRABO"
+    },
+    {
+        "id": 59161,
+        "name": "IZNALLOZ"
+    },
+    {
+        "id": 59164,
+        "name": "JAYENA"
+    },
+    {
+        "id": 59165,
+        "name": "JERES DEL MARQUESADO"
+    },
+    {
+        "id": 59166,
+        "name": "JETE"
+    },
+    {
+        "id": 59168,
+        "name": "JUN"
+    },
+    {
+        "id": 59170,
+        "name": "JUVILES"
+    },
+    {
+        "id": 59173,
+        "name": "LACHAR"
+    },
+    {
+        "id": 59175,
+        "name": "LANJARON"
+    },
+    {
+        "id": 59176,
+        "name": "LANTEIRA"
+    },
+    {
+        "id": 59178,
+        "name": "LECRIN"
+    },
+    {
+        "id": 59179,
+        "name": "LENTEJI"
+    },
+    {
+        "id": 59181,
+        "name": "LOBRAS"
+    },
+    {
+        "id": 59183,
+        "name": "LOJA"
+    },
+    {
+        "id": 59186,
+        "name": "LUGROS"
+    },
+    {
+        "id": 59187,
+        "name": "LUJAR"
+    },
+    {
+        "id": 59190,
+        "name": "MALAHA (LA)"
+    },
+    {
+        "id": 59191,
+        "name": "MARACENA"
+    },
+    {
+        "id": 59192,
+        "name": "MARCHAL"
+    },
+    {
+        "id": 59201,
+        "name": "MOCLIN"
+    },
+    {
+        "id": 59203,
+        "name": "MOLVIZAR"
+    },
+    {
+        "id": 59204,
+        "name": "MONACHIL"
+    },
+    {
+        "id": 59208,
+        "name": "MONTEFRIO"
+    },
+    {
+        "id": 59209,
+        "name": "MONTEJICAR"
+    },
+    {
+        "id": 59210,
+        "name": "MONTILLANA"
+    },
+    {
+        "id": 59211,
+        "name": "MORALEDA DE ZAFAYONA"
+    },
+    {
+        "id": 59212,
+        "name": "MORELABOR"
+    },
+    {
+        "id": 59213,
+        "name": "MOTRIL"
+    },
+    {
+        "id": 59215,
+        "name": "MURTAS"
+    },
+    {
+        "id": 59218,
+        "name": "NEVADA"
+    },
+    {
+        "id": 59219,
+        "name": "NIVAR"
+    },
+    {
+        "id": 59220,
+        "name": "NIGÜELAS"
+    },
+    {
+        "id": 59221,
+        "name": "OGIJARES"
+    },
+    {
+        "id": 59222,
+        "name": "OTIVAR"
+    },
+    {
+        "id": 59225,
+        "name": "ORCE"
+    },
+    {
+        "id": 59226,
+        "name": "ORGIVA"
+    },
+    {
+        "id": 59228,
+        "name": "OTURA"
+    },
+    {
+        "id": 59229,
+        "name": "PADUL"
+    },
+    {
+        "id": 59231,
+        "name": "PAMPANEIRA"
+    },
+    {
+        "id": 59232,
+        "name": "PEDRO MARTINEZ"
+    },
+    {
+        "id": 59234,
+        "name": "PELIGROS"
+    },
+    {
+        "id": 59237,
+        "name": "PEZA (LA)"
+    },
+    {
+        "id": 59240,
+        "name": "PINAR (EL)"
+    },
+    {
+        "id": 59241,
+        "name": "PINOS GENIL"
+    },
+    {
+        "id": 59242,
+        "name": "PINOS PUENTE"
+    },
+    {
+        "id": 59243,
+        "name": "PIÑAR"
+    },
+    {
+        "id": 59245,
+        "name": "POLICAR"
+    },
+    {
+        "id": 59246,
+        "name": "POLOPOS"
+    },
+    {
+        "id": 59248,
+        "name": "PORTUGOS"
+    },
+    {
+        "id": 59250,
+        "name": "PUEBLA DE DON FADRIQUE"
+    },
+    {
+        "id": 59254,
+        "name": "PULIANAS"
+    },
+    {
+        "id": 59257,
+        "name": "PURULLENA"
+    },
+    {
+        "id": 59258,
+        "name": "QUENTAR"
+    },
+    {
+        "id": 59263,
+        "name": "RUBITE"
+    },
+    {
+        "id": 59265,
+        "name": "SALAR"
+    },
+    {
+        "id": 59267,
+        "name": "SALOBREÑA"
+    },
+    {
+        "id": 59270,
+        "name": "SANTA CRUZ DEL COMERCIO"
+    },
+    {
+        "id": 59271,
+        "name": "SANTA FE"
+    },
+    {
+        "id": 59275,
+        "name": "SOPORTUJAR"
+    },
+    {
+        "id": 59276,
+        "name": "SORVILAN"
+    },
+    {
+        "id": 59277,
+        "name": "TAHA (LA)"
+    },
+    {
+        "id": 59285,
+        "name": "TORRE CARDELA"
+    },
+    {
+        "id": 59288,
+        "name": "TORVIZCON"
+    },
+    {
+        "id": 59292,
+        "name": "TREVELEZ"
+    },
+    {
+        "id": 59294,
+        "name": "TURON"
+    },
+    {
+        "id": 59296,
+        "name": "UGIJAR"
+    },
+    {
+        "id": 59298,
+        "name": "VALLE (EL)"
+    },
+    {
+        "id": 59300,
+        "name": "VALLE DEL ZALABI"
+    },
+    {
+        "id": 59301,
+        "name": "VALOR"
+    },
+    {
+        "id": 59302,
+        "name": "VELEZ DE BENAUDALLA"
+    },
+    {
+        "id": 59308,
+        "name": "VENTAS DE HUELMA"
+    },
+    {
+        "id": 59311,
+        "name": "VILLAMENA"
+    },
+    {
+        "id": 59312,
+        "name": "VILLANUEVA DE LAS TORRES"
+    },
+    {
+        "id": 59313,
+        "name": "VILLANUEVA MESIA"
+    },
+    {
+        "id": 59315,
+        "name": "VIZNAR"
+    },
+    {
+        "id": 59319,
+        "name": "ZAFARRAYA"
+    },
+    {
+        "id": 59320,
+        "name": "ZAGRA"
+    },
+    {
+        "id": 59321,
+        "name": "ZUBIA (LA)"
+    },
+    {
+        "id": 59322,
+        "name": "VEGAS DEL GENIL"
+    },
+    {
+        "id": 59323,
+        "name": "ZUJAR"
+    }
+]

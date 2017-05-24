@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "01. Agricultura"
+  },
+  {
+    "id": 2,
+    "name": "02. Actividades ganaderas y cinegéticas"
+  },
+  {
+    "id": 3,
+    "name": "03. Silvicultura / Explotación forestal"
+  },
+  {
+    "id": 4,
+    "name": "04. Pesca / Acuicultura"
+  },
+  {
+    "id": 5,
+    "name": "05. Industria de la alimentación, bebidas y tabaco. Industria agroalimentaria. Biotecnología"
+  },
+  {
+    "id": 6,
+    "name": "06. Industria textil, de la confección, del cuero y del calzado"
+  },
+  {
+    "id": 7,
+    "name": "07. Industria de la madera, del corcho y del papel"
+  },
+  {
+    "id": 8,
+    "name": "08. Edición, artes gráficas y reproducción de soportes grabados"
+  },
+  {
+    "id": 9,
+    "name": "09. Artesanía"
+  },
+  {
+    "id": 10,
+    "name": "10. Otras industrias"
+  },
+  {
+    "id": 11,
+    "name": "11. Empresas de fabricación: maquinaria, equipos, vehículos, naval, aeronaútica, muebles, otros"
+  },
+  {
+    "id": 12,
+    "name": "12. Reciclaje"
+  },
+  {
+    "id": 13,
+    "name": "13. Producción, distribución, suministro de energía eléctrica, gas, agua, vapor y aire acondicionado"
+  },
+  {
+    "id": 14,
+    "name": "14. Construcción / Ingeniería civil/ Urbanismo/ Paisajismo"
+  },
+  {
+    "id": 15,
+    "name": "15. Instalaciones eléctricas / Fontanería / Climatización / Pintura"
+  },
+  {
+    "id": 16,
+    "name": "16. Carpintería de madera y metálica / Soldadura y forja"
+  },
+  {
+    "id": 17,
+    "name": "17. Energías renovables"
+  },
+  {
+    "id": 18,
+    "name": "18. Venta de vehículos de motor"
+  },
+  {
+    "id": 19,
+    "name": "19. Comercio al por mayor / Intermediarios"
+  },
+  {
+    "id": 20,
+    "name": "20. Comercio al por menor"
+  },
+  {
+    "id": 21,
+    "name": "21. Taller de reparación"
+  },
+  {
+    "id": 22,
+    "name": "22. Comercio exterior"
+  },
+  {
+    "id": 23,
+    "name": "23. Comercio electrónico"
+  },
+  {
+    "id": 24,
+    "name": "24. Hostelería"
+  },
+  {
+    "id": 25,
+    "name": "25. Turismo rural"
+  },
+  {
+    "id": 26,
+    "name": "26. Restaurantes"
+  },
+  {
+    "id": 27,
+    "name": "27. Bar / Pub / Cafetería / Tetería/ Discoteca"
+  },
+  {
+    "id": 28,
+    "name": "28. Provisión de comidas preparadas"
+  },
+  {
+    "id": 29,
+    "name": "29. Transportes y almacenamiento"
+  },
+  {
+    "id": 30,
+    "name": "30. Agencia de viajes / Operadores turísticos / Central de reservas"
+  },
+  {
+    "id": 31,
+    "name": "31. Intermediarios financieros y de seguros"
+  },
+  {
+    "id": 32,
+    "name": "32. Actividades inmobiliarias / Centros de empresas / Espacios de coworking"
+  },
+  {
+    "id": 33,
+    "name": "33. Alquiler de automóviles, maquinaria y otros"
+  },
+  {
+    "id": 34,
+    "name": "34. Servicios informáticos / Nuevas Tecnologías"
+  },
+  {
+    "id": 35,
+    "name": "35. Consultoría / Asesoría / Actividades jurídicas / Servicios técnicos"
+  },
+  {
+    "id": 36,
+    "name": "36. Publicidad / Diseño / Marketing"
+  },
+  {
+    "id": 37,
+    "name": "37. Servicios de seguridad y vigilancia"
+  },
+  {
+    "id": 38,
+    "name": "38. Organización de ferias, exhibiciones, congresos y otros eventos"
+  },
+  {
+    "id": 39,
+    "name": "39. Otros servicios empresariales (fotografía, traducción, etc.)"
+  },
+  {
+    "id": 40,
+    "name": "40. Academias / Centros de formación / Educación"
+  },
+  {
+    "id": 41,
+    "name": "42. Actividades sanitarias y veterinarias"
+  },
+  {
+    "id": 42,
+    "name": "43. Ayuda a domicilio / Servicios a personas dependientes"
+  },
+  {
+    "id": 43,
+    "name": "44. Centros de día / Residencia de ancianos"
+  },
+  {
+    "id": 44,
+    "name": "41. Guarderías / Ludotecas / Atención a la infancia"
+  },
+  {
+    "id": 45,
+    "name": "45. Actividades de saneamiento, aguas residuales, gestión del agua"
+  },
+  {
+    "id": 46,
+    "name": "46. Actividades asociativas y servicios a la comunidad"
+  },
+  {
+    "id": 47,
+    "name": "47. Actividades cinematográficas, vídeo, radio y televisión"
+  },
+  {
+    "id": 48,
+    "name": "48. Actividades artísticas, de espectáculos, deportivas y de ocio"
+  },
+  {
+    "id": 49,
+    "name": "49. Servicios culturales, gestión cultural y de museos, bibliotecas, etc."
+  },
+  {
+    "id": 50,
+    "name": "50. Otros servicios: peluquerías, belleza, balnearios, limpieza, psicología, cuidado de mascotas, etc."
+  }
+]
