@@ -57,6 +57,11 @@ function baweic_settings_page() {
 	add_settings_section( 'baweic_settings', __( 'Add new code', 'baweic' ), '__return_false', 'baweic_settings' );
 	add_settings_field( 'baweic_field_code', __( 'Add link', 'baweic' ), 'baweic_field_link', 'baweic_settings', 'baweic_settings' );
 	add_settings_field( 'baweic_field_count', __( 'Text link', 'baweic' ), 'baweic_field_text_link', 'baweic_settings', 'baweic_settings' );
+	/** NOTE: AÑADIDOS **/
+	add_settings_section( 'baweic_settings_email', __( 'Enviar email confirmación', 'baweic' ), '__return_false', 'baweic_settings' );
+	add_settings_field( 'baweic_field_sendE', __( 'Enviar email de verificación al usuario?', 'baweic' ), 'baweic_field_verify', 'baweic_settings', 'baweic_settings_email' );
+	add_settings_field( 'baweic_field_e_header', __( 'Asunto', 'baweic' ), 'baweic_field_e_header', 'baweic_settings', 'baweic_settings_email' );
+	add_settings_field( 'baweic_field_e_content', __( 'Cuerpo del mensaje', 'baweic' ), 'baweic_field_e_content', 'baweic_settings', 'baweic_settings_email' );
 ?>
 	<div class="wrap">
 		<h1><?php _e( 'Invitation Codes Settings', 'baweic' ); ?>
@@ -165,12 +170,6 @@ function baweic_fields_cb( $val ) {
 	return false;
 }
 
-
-function funcon() {
-	return '<p>Pruebaaaaaaa de que funciona el shortcode</p>';
-}
-
-
 function create_invitation_code( $code, $count = 1 ) {
 	$baweic_options = get_option( 'baweic_options' );
 
@@ -188,7 +187,14 @@ function create_invitation_code( $code, $count = 1 ) {
 register_activation_hook( BAWEIC__FILE__, 'baweic_activation' );
 function baweic_activation() {
 	add_option( 'baweic_options', array( 'codes' => array( 'INVITATION' => array( 'maxcount' => 999999, 'leftcount' => 999999, 'users' => '' ) ) ) );
-	add_option( 'baweic_fields', array( 'link' => 'on', 'text_link'=> sprintf( __( 'Need an invitation code? <a href="mailto:%s">Contact us!</a>', 'baweic' ), get_option( 'admin_email' ) ) ) );
+	add_option( 'baweic_fields', array( 'link' => 'on', 'text_link'=> sprintf( __( 'Need an invitation code? <a href="mailto:%s">Contact us!</a>', 'baweic' ), get_option( 'admin_email' ) ), 'active' => 'on', 'text_header' => 'Cabecera del mensaje', 'text_area' => 'Aquí irá todo el cuerpo del mensaje' ) );
+
+	// NOTE: Añadidos más opciones
+}
+
+register_deactivation_hook( BAWEIC__FILE__, 'baweic_deactivation' );//NOTE: hook añadido para eliminar tupla al desactivar plugin
+function baweic_deactivation(){
+	delete_option( 'baweic_fields' );
 }
 
 register_uninstall_hook( BAWEIC__FILE__, 'baweic_uninstaller' );
