@@ -11,12 +11,12 @@ $consultaBusqueda = str_replace($caracteres_malos, $caracteres_buenos, $consulta
 //Variable vacía (para evitar los E_NOTICE)
 $resultB = "";
 
-echo '<script type="text/javascript">
+/*echo '<script type="text/javascript">
 		      
 		   console.log("Valor: '.$consultaBusqueda.'");
 		      
 		  </script>';
-
+*/
 //Comprueba si $consultaBusqueda está seteado
 if (isset($consultaBusqueda)) {
 

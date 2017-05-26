@@ -20,7 +20,7 @@ $(document).ready(function(){
                 var output = "<h1>" + response.data.message + "</h1>";
                 //recorremos cada usuario
                 $.each(response.data.users, function( key, value ) {
-                    output += "<h2>Detalles del usuario " + value['ID'] + "</h2>";
+                    output += "<h2>Detalles del usuario " + value['name'] + "</h2>";
                     //recorremos los valores de cada usuario
                     $.each( value, function ( userkey, uservalue) {
                         output += '<ul>';
